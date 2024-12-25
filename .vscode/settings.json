@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.properties": "java",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}
