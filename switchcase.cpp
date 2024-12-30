@@ -31,7 +31,7 @@ int main(){
             n=n%1;
             break;
         default:
-            cout<<"Nothing works with the expected denomination for the given amount"<<endl;
+            cout<<"Nothing works with the expected denominations for the given amount"<<endl;
 
         }
 
