@@ -9,9 +9,14 @@ int main() {
         while (i <= 30) {
             int value = pow(2, i);
             if (value == n) {
-                return true;
+                ans= true;
             }
             i++;
         }
-        return ans;
+    
+        if(ans){
+            cout<<"Given number is a power of 2"<<endl;
+        }else{
+            cout<<"Given number is not a power of 2"<<endl;
+        }
     }
